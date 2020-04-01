@@ -1,11 +1,17 @@
 <template>
   <div class="note">
     <div class="note-header">
-      <p class="note-title">{{ title }}</p>
+      <p class="note-title">{{ title }}<span hidden>{{id}}</span></p>
       <p class="note-date">{{ date }}</p>
     </div>
     <div class="note-body">
       <p>{{ description }}</p>
+    </div>
+    <div class="note-footer">
+      <router-link :to="`/edit/${id}`">edit </router-link>
+      <router-link :to="`/delete/${id}`">delete </router-link>
+      <router-link :to="`/share/${id}`">share </router-link>
+      <router-link :to="`/export/${id}`">export</router-link>
     </div>
   </div>
 </template>
@@ -51,6 +57,10 @@ export default class Note extends Vue {
     & > p.note-date {
       text-align: right;
     }
+  }
+
+  & > .note-footer {
+    text-align: right;
   }
 }
 
