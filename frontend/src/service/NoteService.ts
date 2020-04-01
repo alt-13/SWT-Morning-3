@@ -1,6 +1,5 @@
 
 import axios from 'axios'
-import moment from 'moment'
 
 import { NoteData } from '@/model'
 
@@ -27,6 +26,13 @@ export class NoteService {
           new Date(note.timestamp)))
 
     return notes
+  }
+
+  async getNoteById (id: number) {
+    const url = `${API_URL}/note/${id}`
+    const response = await axios.get(url)
+    const note: NoteData = response.data.map((note: ServerResponseNote) => new NoteData(note.id, note.title, note.description, new Date(note.timestamp)))
+    return note
   }
 
   async addNote (title: string, description: string) {
