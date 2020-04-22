@@ -1,23 +1,0 @@
-
-T
-squid:S106\"9Replace this use of System.out or System.err by a logger.(×›£¾üÿÿÿÿ
-N
-squid:S106Y"9Replace this use of System.out or System.err by a logger.(Çğõ"
-T
-squid:S106V"9Replace this use of System.out or System.err by a logger.(¡ˆ¥şÿÿÿÿ
-?squid:S1148]"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-O
-squid:S106M"9Replace this use of System.out or System.err by a logger.(¹°®„
-O
-squid:S106R"9Replace this use of System.out or System.err by a logger.(ÆÀûı
-O
-squid:S106B"9Replace this use of System.out or System.err by a logger.(ùÖğÓ
-Ksquid:S1066Q"/Merge this if statement with the enclosing one.(§ıíÍüÿÿÿÿ
-csquid:S00112b"FDefine and throw a dedicated exception instead of using a generic one.(Šğ®…úÿÿÿÿ
-Tsquid:S11971"8Move the array designator from the variable to the type.(¡şÏÖøÿÿÿÿ
-T
-squid:S1062"9Replace this use of System.out or System.err by a logger.(ªõ»ùÿÿÿÿ
-Asquid:S1181["%Catch Exception instead of Throwable.(‡˜ÚÚøÿÿÿÿ
-T
-squid:S1064"9Replace this use of System.out or System.err by a logger.(ô›¶¿şÿÿÿÿ
-Fsquid:S2093<"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
